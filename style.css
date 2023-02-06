@@ -1,0 +1,265 @@
+/* css hecho por steven */
+/*probando colores que vi bonitos*/
+html {
+  --color1: #645cbb;
+  --color2: #a084dc;
+  --color3: #bface2;
+  --color4: #ebc7e6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+.header {
+  background-color: var(--color1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5em;
+}
+
+.ico {
+  margin-left: 1em;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 1.5em;
+  display: inline;
+  margin: 0 0 0 0.5em;
+  color: white;
+}
+
+.navbar {
+  margin-right: 1.5em;
+}
+
+.nav-list {
+  margin-right: 1em;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+}
+/*animacion simple*/
+.nav-list:hover {
+  text-decoration: underline;
+  color: var(--color2);
+  transition: 0.3s;
+}
+
+.banner {
+  background-color: var(--color1);
+  display: flex;
+  align-items: center;
+  height: 95vh;
+  justify-content: center;
+}
+
+.container {
+  width: 40vw;
+  margin-left: 2em;
+}
+
+.banner-title {
+  font-weight: 600;
+  font-size: 4em;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.banner-text {
+  font-weight: 300;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+}
+
+.about {
+  background-color: var(--color2);
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  margin: 0.5em 0 1em 0;
+}
+
+.about-profile {
+  height: 300px;
+  width: 250px;
+  background-color: var(--color3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5em;
+}
+
+#img {
+  border-radius: 0.5em;
+  width: 100%;
+  height: auto;
+}
+
+.about-img {
+  margin-top: 1.5em;
+}
+
+.links-content {
+  margin-top: 1em;
+}
+
+.flex-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-text {
+  font-size: 2em;
+  color: white;
+  font-weight: 300;
+}
+
+.skills {
+  height: 450px;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 3em;
+  color: var(--color1);
+  margin: 1em 0 1em 0;
+  text-transform: capitalize;
+}
+
+.card {
+  width: 100px;
+  height: 120px;
+  background-color: var(--color4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5em;
+}
+
+.card-text {
+  color: var(--color1);
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.educations {
+  height: 500px;
+  background-color: var(--color2);
+  display: flex;
+  flex-direction: column;
+}
+
+.educations-title {
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  margin: 1em 0 1.5em 0;
+  text-transform: capitalize;
+}
+
+.educations-cards {
+  height: 320px;
+  width: 30%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5em;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
+  font-weight: 600;
+  color: var(--color1);
+}
+
+.cards-text {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: var(--color1);
+  margin: 0 1em 0 1em;
+}
+
+.card-img {
+  align-self: center;
+}
+
+.projects {
+  background-color: var(--color3);
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-img {
+  width: 70%;
+  height: 400px;
+  border-radius: 0.5em;
+  align-self: center;
+  margin-bottom: 1em;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.projects-title {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  margin: 0.5em 0 1em 0;
+  text-transform: capitalize;
+}
+
+footer {
+  background-color: var(--color1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 1.5em;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 300;
+  margin-top: 0.5em;
+}

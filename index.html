@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ecb1c380a1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Steven Lopez</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <i class="fa-solid fa-code fa-2x" style="color: white"></i>
+        <h2 class="title">Steven Lopez</h2>
+      </div>
+      <nav class="navbar">
+        <a href="#about" class="nav-list">sobre mi</a>
+        <a href="#skills" class="nav-list">skills</a>
+        <a href="#educations" class="nav-list">formacion academica</a>
+        <a href="#projects" class="nav-list">proyectos</a>
+        <a href="#contact" class="nav-list">contactame</a>
+      </nav>
+    </header>
+    <section class="banner">
+      <div class="container">
+        <h2 class="banner-title">
+          Hola, mi nombre es steven lopez y hago paginas web
+        </h2>
+        <p class="banner-text">
+          estoy capacitado para diseñar paginas web usando html css y
+          javascript.
+        </p>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="about-title">sobre mi</h2>
+      <div class="flex-content">
+        <div class="about-profile">
+          <div class="about-img">
+            <img
+              src="/source/1663367738669 (1).jpeg"
+              alt="foto de perfil"
+              id="img"
+            />
+          </div>
+          <div class="links-content">
+            <a href="https://www.linkedin.com/in/stevenwdesign/">
+              <i
+                class="fa-brands fa-linkedin fa-3x"
+                style="color: var(--color1)"
+              ></i>
+            </a>
+            <a href="https://github.com/StevenWdesign">
+              <i
+                class="fa-brands fa-github fa-3x"
+                style="color: var(--color1)"
+              ></i>
+            </a>
+            <a href="#">
+              <i
+                class="fa-solid fa-print fa-3x"
+                style="color: var(--color1)"
+                onclick="imprimir()"
+              ></i>
+            </a>
+          </div>
+        </div>
+        <div class="container">
+          <p class="about-text">
+            Amante de las nuevas tecnologias, me la paso estudiando nuevas
+            opciones que pueda usar en mis proyectos, en los proyectos
+            realizados trato siempre de dar todo de mi para ver siempre la
+            evolucion de estos, estoy dispuesto tanto a aprender como a enseñar.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <h2 class="skills-title">skills y softskills</h2>
+      <div class="flex-content">
+        <div class="card">
+          <i
+            class="fa-brands fa-square-js fa-5x"
+            style="color: var(--color1)"
+          ></i>
+          <p class="card-text">javascript</p>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-html5 fa-5x" style="color: var(--color1)"></i>
+          <p class="card-text">html</p>
+        </div>
+        <div class="card">
+          <i
+            class="fa-brands fa-css3-alt fa-5x"
+            style="color: var(--color1)"
+          ></i>
+          <p class="card-text">css</p>
+        </div>
+        <div class="card">
+          <i
+            class="fa-brands fa-node-js fa-5x"
+            style="color: var(--color1)"
+          ></i>
+          <p class="card-text">nodeJs</p>
+        </div>
+        <div class="card">
+          <i
+            class="fa-solid fa-people-group fa-5x"
+            style="color: var(--color1)"
+          ></i>
+          <p class="card-text">teamWork</p>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-github fa-5x" style="color: var(--color1)"></i>
+          <p class="card-text">gitHub</p>
+        </div>
+      </div>
+      <h2 class="skills-title">hobbies</h2>
+      <div class="flex-content">
+        <div class="card">
+          <i class="fa-solid fa-music fa-5x" style="color: var(--color1)"></i>
+          <p class="card-text">musica</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-gamepad fa-5x" style="color: var(--color1)"></i>
+          <p class="card-text">videoJuegos</p>
+        </div>
+        <div class="card">
+          <i
+            class="fa-solid fa-bowl-rice fa-5x"
+            style="color: var(--color1)"
+          ></i>
+          <p class="card-text">cocinar</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-code fa-5x" style="color: var(--color1)"></i>
+          <p class="card-text">programar</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-brush fa-5x" style="color: var(--color1)"></i>
+          <p class="card-text">dibujar</p>
+        </div>
+      </div>
+    </section>
+    <section class="educations" id="educations">
+      <h2 class="educations-title">formacion academica</h2>
+      <div class="flex-content">
+        <div class="educations-cards">
+          <div class="card-img">
+            <img src="/source/alura.svg" alt="logo alura latam" />
+          </div>
+          <h2 class="card-title">alura latam</h2>
+          <p class="cards-text">
+            frontend | es el curso mas reciente de alura latam que hice y la
+            verdad en su mayoria me a gustado mucho me han enseñado cosas que no
+            conocia aun cuando me la pasaba capacitandome sobre cosas en youtube
+            y libros, pruebas en mi linkedin y bueno que mas decir espero seguir
+            con esta travesia de alura.
+          </p>
+        </div>
+        <div class="educations-cards">
+          <div class="card-img">
+            <img src="/source/alura.svg" alt="logo alura latam" />
+          </div>
+          <h2 class="card-title">alura latam</h2>
+          <p class="cards-text">
+            formacion principiante en programacion | el primer curso de alura si
+            no contamos los de preparacion y este en verdad aunque en
+            html,css,javascript no me mostraron mucho, en lo demas como buenas
+            practicas que me ayudaron para aplicar el responsive, se lo
+            recomiendo a cualquiera, pruebas en linkedin.
+          </p>
+        </div>
+        <div class="educations-cards">
+          <div class="card-img">
+            <img src="/source/freecodecamp.svg" alt="logo freecodecamp" />
+          </div>
+          <h2 class="card-title">freecodecamp</h2>
+          <p class="cards-text">
+            responsive design | la mejor manera junto a 2 o 3 cosas mas de
+            aprender a programar muy bueno y en lo personal me gusta mas cuando
+            puedo aprender a mi ritmo no soy mucho de videos educativos si puedo
+            leer y probar de una mejor asi pruebas ya sabes donde campeon :3.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="projects-title">proyectos</h2>
+      <div class="projects-cards">
+        <h2 class="projects-title">encriptador de texto</h2>
+        <a
+          href="https://stevenwdesign.github.io/Challenge-Oracle-One/#"
+          class="item"
+        >
+          <img
+            src="./source/Screenshot 2023-02-06 115908.png"
+            alt="encriptador de texto"
+            class="projects-img"
+          />
+        </a>
+        <h2 class="projects-title">encuesta para videojuego</h2>
+        <a href="https://codepen.io/StevenWebDes/full/WNZZgYY" class="item">
+          <img
+            src="./source/Screenshot 2023-02-06 131741.png"
+            alt="encriptador de texto"
+            class="projects-img"
+          />
+        </a>
+        <h2 class="projects-title">landing page</h2>
+        <a href="https://codepen.io/StevenWebDes/full/QWqQoWP" class="item">
+          <img
+            src="./source/Screenshot 2023-02-06 132039.png"
+            alt="encriptador de texto"
+            class="projects-img"
+          />
+        </a>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+        <img src="" alt="">
+    </section>
+    <footer>
+      <p class="footer-text">steven lopez santos</p>
+      <p class="footer-text">2022</p>
+    </footer>
+    <script src="/main.js"></script>
+  </body>
+</html>

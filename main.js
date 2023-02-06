@@ -1,0 +1,3 @@
+const imprimir = () => {
+  window.print();
+};
